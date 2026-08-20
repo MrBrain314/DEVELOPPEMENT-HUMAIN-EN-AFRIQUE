@@ -1,0 +1,24 @@
+# ---------------------------------------------------------------
+# Donnees brutes WDI (Banque Mondiale) - trop volumineuses (~270 Mo)
+# A retelecharger : voir README.
+# ---------------------------------------------------------------
+data/donnees brutes/
+*.zip
+
+# Power BI - fichiers temporaires
+print-job-*/
+*.tmp
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Systeme
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Divers
+*.log
